@@ -149,8 +149,8 @@ function Index() {
       {/* Nav */}
       <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <a href="#top" className="font-display text-2xl leading-none tracking-tight">
-            Juice<span className="text-citrus">.</span>Solutions
+          <a href="#top" className="flex items-center gap-2">
+            <img src={logo.url} alt="FRUITCAP logo" className="h-10 w-auto object-contain" />
           </a>
           <nav className="hidden items-center gap-8 md:flex">
             {nav.map((n) => (
@@ -487,7 +487,7 @@ function Index() {
 
       <footer className="border-t border-border py-10">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <span className="font-display text-lg text-foreground">Juice.Solutions</span>
+          <img src={logo.url} alt="FRUITCAP logo" className="h-10 w-auto object-contain" />
           <p>© {new Date().getFullYear()} FRUITCAP. Fruit ingredients for the food industry.</p>
         </div>
       </footer>
