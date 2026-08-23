@@ -7,13 +7,14 @@ import processPress from "@/assets/process-press.jpg";
 import facility from "@/assets/facility.jpg";
 import orchard from "@/assets/orchard.jpg";
 import labQuality from "@/assets/lab-quality.jpg";
+import logo from "@/assets/fruitcap-logo.jpeg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
       {
-        title: "Juice Solutions — Fruit Juice Concentrates & Ingredient Supply",
+        title: "FRUITCAP — Fruit Juice Concentrates & Ingredient Supply",
       },
       {
         name: "description",
@@ -22,7 +23,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Juice Solutions — Fruit Juice Concentrates & Ingredients",
+        content: "FRUITCAP — Fruit Juice Concentrates & Ingredients",
       },
       {
         property: "og:description",
@@ -149,8 +150,8 @@ function Index() {
       {/* Nav */}
       <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <a href="#top" className="font-display text-2xl leading-none tracking-tight">
-            Juice<span className="text-citrus">.</span>Solutions
+          <a href="#top" className="flex items-center gap-2">
+            <img src={logo.url} alt="FRUITCAP logo" className="h-10 w-auto object-contain" />
           </a>
           <nav className="hidden items-center gap-8 md:flex">
             {nav.map((n) => (
@@ -390,7 +391,7 @@ function Index() {
           </div>
           <div className="order-1 md:order-2">
             <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
-              Why Juice Solutions
+              Why FRUITCAP
             </p>
             <h2 className="mt-5 font-display text-4xl leading-tight md:text-5xl">
               Superior quality in all our products
@@ -487,8 +488,8 @@ function Index() {
 
       <footer className="border-t border-border py-10">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <span className="font-display text-lg text-foreground">Juice.Solutions</span>
-          <p>© {new Date().getFullYear()} Juice Solutions. Fruit ingredients for the food industry.</p>
+          <img src={logo.url} alt="FRUITCAP logo" className="h-10 w-auto object-contain" />
+          <p>© {new Date().getFullYear()} FRUITCAP. Fruit ingredients for the food industry.</p>
         </div>
       </footer>
     </div>
