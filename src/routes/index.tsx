@@ -39,11 +39,9 @@ export const Route = createFileRoute("/")({
 });
 
 const nav = [
-  { label: "Industries", href: "#industries" },
+  { label: "Home", href: "#top" },
   { label: "Products", href: "#products" },
-  { label: "Capabilities", href: "#capabilities" },
-  { label: "Quality", href: "#quality" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contacts", href: "#contact" },
 ];
 
 const industries = [
