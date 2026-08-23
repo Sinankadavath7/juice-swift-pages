@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "Juice Solutions — Fruit Juice Concentrates & Ingredient Supply",
+        title: "FRUITCAP — Fruit Juice Concentrates & Ingredient Supply",
       },
       {
         name: "description",
@@ -22,7 +22,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Juice Solutions — Fruit Juice Concentrates & Ingredients",
+        content: "FRUITCAP — Fruit Juice Concentrates & Ingredients",
       },
       {
         property: "og:description",
@@ -390,7 +390,7 @@ function Index() {
           </div>
           <div className="order-1 md:order-2">
             <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
-              Why Juice Solutions
+              Why FRUITCAP
             </p>
             <h2 className="mt-5 font-display text-4xl leading-tight md:text-5xl">
               Superior quality in all our products
@@ -488,7 +488,7 @@ function Index() {
       <footer className="border-t border-border py-10">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <span className="font-display text-lg text-foreground">Juice.Solutions</span>
-          <p>© {new Date().getFullYear()} Juice Solutions. Fruit ingredients for the food industry.</p>
+          <p>© {new Date().getFullYear()} FRUITCAP. Fruit ingredients for the food industry.</p>
         </div>
       </footer>
     </div>
