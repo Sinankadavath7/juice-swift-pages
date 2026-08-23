@@ -7,6 +7,7 @@ import processPress from "@/assets/process-press.jpg";
 import facility from "@/assets/facility.jpg";
 import orchard from "@/assets/orchard.jpg";
 import labQuality from "@/assets/lab-quality.jpg";
+import logo from "@/assets/fruitcap-logo.jpeg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
