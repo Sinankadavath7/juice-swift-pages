@@ -1,4 +1,5 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { categories } from "@/data/products";
 import juiceOrange from "@/assets/juice-orange.jpg";
 import juiceGreen from "@/assets/juice-green.jpg";
 import juiceBeet from "@/assets/juice-beet.jpg";
