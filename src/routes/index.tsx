@@ -74,15 +74,8 @@ const industries = [
   },
 ];
 
-const products = [
-  { name: "Juice Concentrate", detail: "Clarified and cloudy concentrates, organic and conventional." },
-  { name: "Fruit Pulp", detail: "Aseptic and frozen pulp with natural fruit character." },
-  { name: "Purée", detail: "Single-strength and concentrated purées for every application." },
-  { name: "NFC Juices", detail: "Not-from-concentrate juices, chilled or frozen." },
-  { name: "Fruit Dices", detail: "IQF and aseptic fruit dices in a range of cut sizes." },
-  { name: "Fruit Nectars", detail: "Ready-to-use nectar bases for beverage filling lines." },
-  { name: "Fruit Crush", detail: "Crushed fruit preparations for dairy, bakery and foodservice." },
-];
+const products = categories;
+
 
 const formats = ["200 L Drums", "1,000 L IBC", "Bag-in-Box", "Aseptic Totes", "Frozen Blocks"];
 
