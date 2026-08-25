@@ -142,6 +142,86 @@ function Index() {
         </div>
       </section>
 
+      {/* Products */}
+      <section id="products" className="mx-auto max-w-7xl px-6 py-24">
+        <div className="max-w-2xl">
+          <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
+            Our product range
+          </p>
+          <h2 className="mt-5 font-display text-4xl leading-tight md:text-5xl">
+            The fruit ingredients we distribute
+          </h2>
+          <p className="mt-6 text-muted-foreground">
+            Organic and conventional, available in industrial formats with storage adapted to each
+            industry's needs.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-2">
+            {formats.map((f) => (
+              <span
+                key={f}
+                className="rounded-full bg-forest px-4 py-1.5 text-xs tracking-wide text-cream"
+              >
+                {f}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {products.map((p) => (
+            <article
+              key={p.slug}
+              className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card transition-shadow hover:shadow-lg"
+            >
+              <Link to="/products/$slug" params={{ slug: p.slug }} className="block h-44 overflow-hidden bg-secondary">
+                <img
+                  src={p.img}
+                  alt={p.name}
+                  width={640}
+                  height={640}
+                  loading="lazy"
+                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              </Link>
+              <div className="flex flex-1 flex-col p-6">
+                <h3 className="font-display text-2xl">
+                  <Link to="/products/$slug" params={{ slug: p.slug }} className="hover:text-citrus">
+                    {p.name}
+                  </Link>
+                </h3>
+                <p className="mt-2 text-sm text-muted-foreground">{p.detail}</p>
+                <div className="mt-6 flex flex-wrap items-center gap-3">
+                  <Link
+                    to="/products/$slug"
+                    params={{ slug: p.slug }}
+                    className="rounded-full bg-primary px-4 py-2 text-xs font-medium text-primary-foreground transition-opacity hover:opacity-90"
+                  >
+                    View catalogue
+                  </Link>
+                  <a
+                    href="#contact"
+                    className="rounded-full border border-primary px-4 py-2 text-xs font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+                  >
+                    Request a quote
+                  </a>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <div className="mt-14 overflow-hidden rounded-3xl">
+          <img
+            src={facility}
+            alt="Stainless steel processing tanks at a partner concentrate facility"
+            width={1600}
+            height={1000}
+            loading="lazy"
+            className="h-full w-full object-cover"
+          />
+        </div>
+      </section>
+
       {/* Industries */}
       <section id="industries" className="border-y border-border bg-secondary/40 py-24">
         <div className="mx-auto max-w-7xl px-6">
@@ -183,56 +263,6 @@ function Index() {
         </div>
       </section>
 
-      {/* Products */}
-      <section id="products" className="mx-auto max-w-7xl px-6 py-24">
-        <div className="grid gap-14 lg:grid-cols-[1fr_1.1fr] lg:items-start">
-          <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
-              Our product range
-            </p>
-            <h2 className="mt-5 font-display text-4xl leading-tight md:text-5xl">
-              The fruit ingredients we distribute
-            </h2>
-            <p className="mt-6 text-muted-foreground">
-              Organic and conventional, available in industrial formats with storage adapted to each
-              industry's needs.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-2">
-              {formats.map((f) => (
-                <span
-                  key={f}
-                  className="rounded-full bg-forest px-4 py-1.5 text-xs tracking-wide text-cream"
-                >
-                  {f}
-                </span>
-              ))}
-            </div>
-            <div className="mt-10 overflow-hidden rounded-3xl">
-              <img
-                src={facility}
-                alt="Stainless steel processing tanks at a partner concentrate facility"
-                width={1600}
-                height={1000}
-                loading="lazy"
-                className="h-full w-full object-cover"
-              />
-            </div>
-          </div>
-          <ul className="divide-y divide-border border-y border-border">
-            {products.map((p, idx) => (
-              <li key={p.name} className="flex gap-6 py-7">
-                <span className="font-display text-lg text-citrus">
-                  {String(idx + 1).padStart(2, "0")}
-                </span>
-                <div>
-                  <h3 className="font-display text-2xl">{p.name}</h3>
-                  <p className="mt-2 text-sm text-muted-foreground">{p.detail}</p>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
 
       {/* Contact */}
       <section id="contact" className="mx-auto max-w-7xl px-6 py-24">
