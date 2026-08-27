@@ -90,7 +90,7 @@ function Index() {
             <img
               src={logo.url}
               alt="FRUITCAP logo"
-              className="h-10 w-auto object-contain mix-blend-multiply"
+              className="h-12 w-auto object-contain mix-blend-multiply"
             />
           </a>
           <nav className="hidden items-center gap-8 md:flex">
@@ -324,7 +324,7 @@ function Index() {
           <img
             src={logo.url}
             alt="FRUITCAP logo"
-            className="h-10 w-auto object-contain mix-blend-multiply"
+            className="h-12 w-auto object-contain mix-blend-multiply"
           />
           <p>© {new Date().getFullYear()} FRUITCAP. Distributors of fruit ingredients.</p>
         </div>
