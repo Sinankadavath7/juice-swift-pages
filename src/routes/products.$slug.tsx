@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { categories, getCategory } from "@/data/products";
-import logo from "@/assets/fruitcap-logo.jpeg.asset.json";
+import logo from "@/assets/fruitcap-logo.png.asset.json";
 
 export const Route = createFileRoute("/products/$slug")({
   loader: ({ params }) => {

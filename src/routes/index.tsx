@@ -5,7 +5,7 @@ import juiceGreen from "@/assets/juice-green.jpg";
 import juiceBeet from "@/assets/juice-beet.jpg";
 import processPress from "@/assets/process-press.jpg";
 import facility from "@/assets/facility.jpg";
-import logo from "@/assets/fruitcap-logo.jpeg.asset.json";
+import logo from "@/assets/fruitcap-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
