@@ -6,20 +6,6 @@ import catDices from "@/assets/cat/fruit-dices.jpg";
 import catNectars from "@/assets/cat/fruit-nectars.jpg";
 import catCrush from "@/assets/cat/fruit-crush.jpg";
 import catPlant from "@/assets/cat/plant-based.jpg";
-import orange from "@/assets/fruit/orange.jpg";
-import apple from "@/assets/fruit/apple.jpg";
-import mango from "@/assets/fruit/mango.jpg";
-import pineapple from "@/assets/fruit/pineapple.jpg";
-import grape from "@/assets/fruit/grape.jpg";
-import strawberry from "@/assets/fruit/strawberry.jpg";
-import lemon from "@/assets/fruit/lemon.jpg";
-import peach from "@/assets/fruit/peach.jpg";
-import pomegranate from "@/assets/fruit/pomegranate.jpg";
-import tropical from "@/assets/fruit/tropical.jpg";
-import vegetable from "@/assets/fruit/vegetable.jpg";
-import plantbased from "@/assets/fruit/plantbased.jpg";
-import berry from "@/assets/fruit/berry.jpg";
-import banana from "@/assets/fruit/banana.jpg";
 
 export type ProductItem = {
   name: string;
