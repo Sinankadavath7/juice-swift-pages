@@ -1,10 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { categories } from "@/data/products";
-import juiceOrange from "@/assets/juice-orange.jpg";
-import juiceGreen from "@/assets/juice-green.jpg";
-import juiceBeet from "@/assets/juice-beet.jpg";
-import processPress from "@/assets/process-press.jpg";
-import facility from "@/assets/facility.jpg";
+import indBeverage from "@/assets/ind/ind-beverage.jpg";
+import indDairy from "@/assets/ind/ind-dairy.jpg";
+import indIceCream from "@/assets/ind/ind-icecream.jpg";
+import indBakery from "@/assets/ind/ind-bakery.jpg";
+import indConfectionery from "@/assets/ind/ind-confectionery.jpg";
+import indHoreca from "@/assets/ind/ind-horeca.jpg";
 import logo from "@/assets/fruitcap-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
