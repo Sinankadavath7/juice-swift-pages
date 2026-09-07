@@ -6,6 +6,7 @@ import indIceCream from "@/assets/ind/ind-icecream.jpg";
 import indBakery from "@/assets/ind/ind-bakery.jpg";
 import indConfectionery from "@/assets/ind/ind-confectionery.jpg";
 import indHoreca from "@/assets/ind/ind-horeca.jpg";
+import facility from "@/assets/facility.jpg";
 import logo from "@/assets/fruitcap-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -47,32 +48,32 @@ const industries = [
   {
     title: "Beverage Manufacturers",
     body: "Fruit concentrates, NFC juices and customised fruit bases for juices, soft drinks, smoothies and functional beverages.",
-    img: juiceOrange,
+    img: indBeverage,
   },
   {
     title: "Dairy & Yogurt",
     body: "Concentrates, purées and fruit preparations engineered for fruit yogurts, drinking yogurts and fermented dairy.",
-    img: juiceGreen,
+    img: indDairy,
   },
   {
     title: "Ice Cream & Frozen",
     body: "Fruit bases that deliver authentic flavour, natural colour and consistent performance in frozen desserts.",
-    img: juiceBeet,
+    img: indIceCream,
   },
   {
     title: "Bakery",
     body: "Fruit ingredients for fillings, toppings and glazes with excellent taste, texture and visual appeal.",
-    img: processPress,
+    img: indBakery,
   },
   {
     title: "Confectionery",
     body: "Fruit solutions for gummies, jelly candies, chews and fillings with natural fruit flavour and colour.",
-    img: juiceOrange,
+    img: indConfectionery,
   },
   {
     title: "HORECA & Foodservice",
     body: "Bag-in-Box juices and concentrates for hotels, restaurants, catering companies and professional kitchens.",
-    img: juiceGreen,
+    img: indHoreca,
   },
 ];
 
