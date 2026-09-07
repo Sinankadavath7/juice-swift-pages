@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { categories, getCategory } from "@/data/products";
-import logo from "@/assets/fruitcap-logo.png";
+import logo from "@/assets/fruitcap-logo.png.asset.json";
 
 export const Route = createFileRoute("/products/$slug")({
   loader: ({ params }) => {
@@ -39,7 +39,7 @@ function CategoryPage() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <Link to="/" className="flex items-center gap-2">
             <img
-              src={logo}
+              src={logo.url}
               alt="FRUITCAP logo"
               className="h-12 w-auto object-contain mix-blend-multiply"
             />
@@ -149,7 +149,7 @@ function CategoryPage() {
       <footer className="border-t border-border py-10">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <img
-            src={logo}
+            src={logo.url}
             alt="FRUITCAP logo"
             className="h-12 w-auto object-contain mix-blend-multiply"
           />
