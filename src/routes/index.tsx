@@ -6,6 +6,7 @@ import indIceCream from "@/assets/ind/ind-icecream.jpg";
 import indBakery from "@/assets/ind/ind-bakery.jpg";
 import indConfectionery from "@/assets/ind/ind-confectionery.jpg";
 import indHoreca from "@/assets/ind/ind-horeca.jpg";
+import facility from "@/assets/facility.jpg";
 import logo from "@/assets/fruitcap-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
