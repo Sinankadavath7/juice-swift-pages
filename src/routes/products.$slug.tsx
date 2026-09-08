@@ -100,7 +100,7 @@ function CategoryPage() {
               key={item.name}
               className="flex flex-col overflow-hidden rounded-2xl border border-border bg-card transition-shadow hover:shadow-lg"
             >
-              <div className="h-48 overflow-hidden bg-secondary">
+              <div className="h-72 overflow-hidden bg-secondary">
                 <img
                   src={item.img}
                   alt={item.name}
