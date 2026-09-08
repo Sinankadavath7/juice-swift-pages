@@ -3,6 +3,7 @@ import catPulp from "@/assets/cat/fruit-pulp.jpg";
 import catPuree from "@/assets/cat/puree.jpg";
 import catNfc from "@/assets/cat/nfc-juices.jpg";
 import pineappleConcentrate from "@/assets/fruit/pineapple-juice-concentrate.jpg";
+import orangeConcentrate from "@/assets/fruit/orange-juice-concentrate.png";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import catNectars from "@/assets/cat/fruit-nectars.jpg";
 import catCrush from "@/assets/cat/fruit-crush.jpg";
@@ -32,7 +33,7 @@ export const categories: ProductCategory[] = [
       "Single-strength juices evaporated to concentrate, available clarified or cloudy, organic or conventional, in drums, IBCs and frozen formats.",
     img: catConcentrate,
     items: [
-      { name: "Orange Juice Concentrate", detail: "65 Brix, frozen (FCOJ) — clarified or with pulp.", img: catConcentrate },
+      { name: "Orange Juice Concentrate", detail: "65 Brix, frozen (FCOJ) — clarified or with pulp.", img: orangeConcentrate },
       { name: "Apple Juice Concentrate", detail: "70 Brix, clarified or cloudy, aseptic or frozen.", img: catConcentrate },
       { name: "Lemon Juice Concentrate", detail: "400 GPL acidity, clarified or cloudy.", img: catConcentrate },
       { name: "Pineapple Juice Concentrate", detail: "60 Brix, clarified, aseptic drums.", img: pineappleConcentrate },
