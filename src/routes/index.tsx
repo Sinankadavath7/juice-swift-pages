@@ -215,7 +215,7 @@ function Index() {
 
         <div className="mt-14 overflow-hidden rounded-3xl">
           <img
-            src={facility}
+            src={facility.url}
             alt="Stainless steel processing tanks at a partner concentrate facility"
             width={1600}
             height={1000}
