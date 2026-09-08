@@ -4,6 +4,7 @@ import catPuree from "@/assets/cat/puree.jpg";
 import catNfc from "@/assets/cat/nfc-juices.jpg";
 import pineappleConcentrate from "@/assets/fruit/pineapple-juice-concentrate.jpg";
 import orangeConcentrate from "@/assets/fruit/orange-juice-concentrate.png";
+import appleConcentrate from "@/assets/fruit/apple-juice-concentrate.png";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import catNectars from "@/assets/cat/fruit-nectars.jpg";
 import catCrush from "@/assets/cat/fruit-crush.jpg";
@@ -34,7 +35,7 @@ export const categories: ProductCategory[] = [
     img: catConcentrate,
     items: [
       { name: "Orange Juice Concentrate", detail: "65 Brix, frozen (FCOJ) — clarified or with pulp.", img: orangeConcentrate },
-      { name: "Apple Juice Concentrate", detail: "70 Brix, clarified or cloudy, aseptic or frozen.", img: catConcentrate },
+      { name: "Apple Juice Concentrate", detail: "70 Brix, clarified or cloudy, aseptic or frozen.", img: appleConcentrate },
       { name: "Lemon Juice Concentrate", detail: "400 GPL acidity, clarified or cloudy.", img: catConcentrate },
       { name: "Pineapple Juice Concentrate", detail: "60 Brix, clarified, aseptic drums.", img: pineappleConcentrate },
       { name: "Grape Juice Concentrate", detail: "68 Brix, white and red, clarified.", img: catConcentrate },
