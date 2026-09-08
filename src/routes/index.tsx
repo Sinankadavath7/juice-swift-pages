@@ -242,7 +242,7 @@ function Index() {
                 key={i.title}
                 className="group overflow-hidden rounded-2xl border border-border bg-card transition-shadow hover:shadow-lg"
               >
-                <div className="h-44 overflow-hidden">
+                <div className="h-56 overflow-hidden">
                   <img
                     src={i.img}
                     alt={i.title}
