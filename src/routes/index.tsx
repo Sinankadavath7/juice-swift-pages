@@ -176,7 +176,7 @@ function Index() {
               key={p.slug}
               className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card transition-shadow hover:shadow-lg"
             >
-              <Link to="/products/$slug" params={{ slug: p.slug }} className="block h-44 overflow-hidden bg-secondary">
+              <Link to="/products/$slug" params={{ slug: p.slug }} className="block h-56 overflow-hidden bg-secondary">
                 <img
                   src={p.img}
                   alt={p.name}
