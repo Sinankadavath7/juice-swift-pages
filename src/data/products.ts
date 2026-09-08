@@ -2,6 +2,7 @@ import catConcentrate from "@/assets/cat/juice-concentrate.jpg";
 import catPulp from "@/assets/cat/fruit-pulp.jpg";
 import catPuree from "@/assets/cat/puree.jpg";
 import catNfc from "@/assets/cat/nfc-juices.jpg";
+import pineappleConcentrate from "@/assets/fruit/pineapple-juice-concentrate.jpg.asset.json";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import catNectars from "@/assets/cat/fruit-nectars.jpg";
 import catCrush from "@/assets/cat/fruit-crush.jpg";
@@ -34,7 +35,7 @@ export const categories: ProductCategory[] = [
       { name: "Orange Juice Concentrate", detail: "65 Brix, frozen (FCOJ) — clarified or with pulp.", img: catConcentrate },
       { name: "Apple Juice Concentrate", detail: "70 Brix, clarified or cloudy, aseptic or frozen.", img: catConcentrate },
       { name: "Lemon Juice Concentrate", detail: "400 GPL acidity, clarified or cloudy.", img: catConcentrate },
-      { name: "Pineapple Juice Concentrate", detail: "60 Brix, clarified, aseptic drums.", img: catConcentrate },
+      { name: "Pineapple Juice Concentrate", detail: "60 Brix, clarified, aseptic drums.", img: pineappleConcentrate.url },
       { name: "Grape Juice Concentrate", detail: "68 Brix, white and red, clarified.", img: catConcentrate },
       { name: "Mango Juice Concentrate", detail: "28–30 Brix, Alphonso, Kesar and Totapuri.", img: catConcentrate },
       { name: "Pomegranate Juice Concentrate", detail: "65 Brix, clarified or cloudy.", img: catConcentrate },
