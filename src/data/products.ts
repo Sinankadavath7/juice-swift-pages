@@ -5,6 +5,7 @@ import catNfc from "@/assets/cat/nfc-juices.jpg";
 import pineappleConcentrate from "@/assets/fruit/pineapple-juice-concentrate.jpg";
 import orangeConcentrate from "@/assets/fruit/orange-juice-concentrate.png";
 import appleConcentrate from "@/assets/fruit/apple-juice-concentrate.png";
+import mangoPulp from "@/assets/fruit/mango-pulp.jpg";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import catNectars from "@/assets/cat/fruit-nectars.jpg";
 import catCrush from "@/assets/cat/fruit-crush.jpg";
