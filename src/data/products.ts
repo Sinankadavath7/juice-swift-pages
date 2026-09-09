@@ -5,6 +5,7 @@ import catNfc from "@/assets/cat/nfc-juices.jpg";
 import pineappleConcentrate from "@/assets/fruit/pineapple-juice-concentrate.jpg";
 import orangeConcentrate from "@/assets/fruit/orange-juice-concentrate.png";
 import appleConcentrate from "@/assets/fruit/apple-juice-concentrate.png";
+import mangoPulp from "@/assets/fruit/mango-pulp.jpg";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import catNectars from "@/assets/cat/fruit-nectars.jpg";
 import catCrush from "@/assets/cat/fruit-crush.jpg";
@@ -54,7 +55,7 @@ export const categories: ProductCategory[] = [
       "Aseptic and frozen fruit pulp processed close to harvest, preserving natural colour, aroma and Brix for beverage, dairy and bakery lines.",
     img: catPulp,
     items: [
-      { name: "Mango Pulp", detail: "Alphonso, Kesar, Totapuri — 16–18 Brix, aseptic.", img: catPulp },
+      { name: "Mango Pulp", detail: "Alphonso, Kesar, Totapuri — 16–18 Brix, aseptic.", img: mangoPulp },
       { name: "Guava Pulp", detail: "White and pink guava, 9–11 Brix, aseptic.", img: catPulp },
       { name: "Banana Pulp", detail: "22 Brix, aseptic, ideal for smoothies and dairy.", img: catPulp },
       { name: "Papaya Pulp", detail: "9–11 Brix, aseptic tropical pulp.", img: catPulp },
