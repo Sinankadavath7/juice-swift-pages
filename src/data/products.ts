@@ -7,6 +7,7 @@ import orangeConcentrate from "@/assets/fruit/orange-juice-concentrate.png";
 import appleConcentrate from "@/assets/fruit/apple-juice-concentrate.png";
 import mangoPulp from "@/assets/fruit/mango-pulp.jpg";
 import catDices from "@/assets/cat/fruit-dices.jpg";
+import papayaDices from "@/assets/fruit/papaya-dices.jpg";
 import catNectars from "@/assets/cat/fruit-nectars.jpg";
 import catCrush from "@/assets/cat/fruit-crush.jpg";
 import catPlant from "@/assets/cat/plant-based.jpg";
@@ -114,6 +115,7 @@ export const categories: ProductCategory[] = [
       { name: "Peach Dices", detail: "IQF 10×10 mm yellow peach.", img: catDices },
       { name: "Strawberry Dices", detail: "IQF 8×8 mm and whole calibrated fruit.", img: catDices },
       { name: "Banana Dices", detail: "IQF slices and cubes.", img: catDices },
+      { name: "Papaya Dices", detail: "IQF 8×8 mm and 10×10 mm, natural or treated.", img: papayaDices },
       { name: "Pomegranate Arils", detail: "IQF whole arils, hand selected.", img: catDices },
     ],
   },
