@@ -8,8 +8,6 @@ import appleConcentrate from "@/assets/fruit/apple-juice-concentrate.png";
 import mangoPulp from "@/assets/fruit/mango-pulp.jpg";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import papayaDices from "@/assets/fruit/papaya-dices.jpg";
-import catCrush from "@/assets/cat/fruit-crush.jpg";
-import catPlant from "@/assets/cat/plant-based.jpg";
 
 export type ProductItem = {
   name: string;
@@ -116,38 +114,6 @@ export const categories: ProductCategory[] = [
       { name: "Banana Dices", detail: "IQF slices and cubes.", img: catDices },
       { name: "Papaya Dices", detail: "IQF 8×8 mm and 10×10 mm, natural or treated.", img: papayaDices },
       { name: "Pomegranate Arils", detail: "IQF whole arils, hand selected.", img: catDices },
-    ],
-  },
-  {
-    slug: "fruit-crush",
-    name: "Fruit Crush",
-    detail: "Crushed fruit preparations for dairy, bakery and foodservice.",
-    intro:
-      "Crushed fruit preparations with visible fruit pieces, stabilised for dairy, bakery, ice cream and HORECA applications.",
-    img: catCrush,
-    items: [
-      { name: "Strawberry Crush", detail: "With fruit pieces, 55–65 Brix.", img: catCrush },
-      { name: "Mango Crush", detail: "Sweetened crush for beverages and desserts.", img: catCrush },
-      { name: "Mixed Berry Crush", detail: "Blackcurrant, raspberry and blueberry blend.", img: catCrush },
-      { name: "Pineapple Crush", detail: "Fine cut pieces in syrup.", img: catCrush },
-      { name: "Lemon & Mint Crush", detail: "Citrus crush for foodservice mocktails.", img: catCrush },
-      { name: "Pomegranate Crush", detail: "Arils in natural juice base.", img: catCrush },
-    ],
-  },
-  {
-    slug: "plant-based-concentrate",
-    name: "Plant Based Concentrate",
-    detail: "Oat, almond, soy and coconut bases for plant-based drinks.",
-    intro:
-      "Plant-based concentrates and bases for dairy alternatives — neutral or sweetened, barista-ready, in aseptic and frozen formats.",
-    img: catPlant,
-    items: [
-      { name: "Oat Base Concentrate", detail: "Enzymatically hydrolysed, barista and classic grades.", img: catPlant },
-      { name: "Almond Base Concentrate", detail: "High solids almond base for drinks and desserts.", img: catPlant },
-      { name: "Soy Base Concentrate", detail: "Neutral soy base, non-GMO available.", img: catPlant },
-      { name: "Coconut Base Concentrate", detail: "Coconut milk and water concentrates.", img: catPlant },
-      { name: "Rice Base Concentrate", detail: "Naturally sweet rice base for RTD beverages.", img: catPlant },
-      { name: "Cashew Base Concentrate", detail: "Creamy cashew base for dairy alternatives.", img: catPlant },
     ],
   },
 ];
