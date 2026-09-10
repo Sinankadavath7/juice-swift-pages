@@ -8,7 +8,6 @@ import appleConcentrate from "@/assets/fruit/apple-juice-concentrate.png";
 import mangoPulp from "@/assets/fruit/mango-pulp.jpg";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import papayaDices from "@/assets/fruit/papaya-dices.jpg";
-import catNectars from "@/assets/cat/fruit-nectars.jpg";
 import catCrush from "@/assets/cat/fruit-crush.jpg";
 import catPlant from "@/assets/cat/plant-based.jpg";
 
@@ -117,22 +116,6 @@ export const categories: ProductCategory[] = [
       { name: "Banana Dices", detail: "IQF slices and cubes.", img: catDices },
       { name: "Papaya Dices", detail: "IQF 8×8 mm and 10×10 mm, natural or treated.", img: papayaDices },
       { name: "Pomegranate Arils", detail: "IQF whole arils, hand selected.", img: catDices },
-    ],
-  },
-  {
-    slug: "fruit-nectars",
-    name: "Fruit Nectars",
-    detail: "Ready-to-use nectar bases for beverage filling lines.",
-    intro:
-      "Ready-to-fill nectar bases formulated to your target fruit content, Brix and acidity — supplied in aseptic bag-in-box, drums and IBCs.",
-    img: catNectars,
-    items: [
-      { name: "Mango Nectar Base", detail: "25–35% fruit content, adjustable Brix.", img: catNectars },
-      { name: "Peach Nectar Base", detail: "40–50% fruit content, aseptic.", img: catNectars },
-      { name: "Orange Nectar Base", detail: "35–50% fruit content, with or without pulp.", img: catNectars },
-      { name: "Guava Nectar Base", detail: "25–30% fruit content, tropical profile.", img: catNectars },
-      { name: "Apple Nectar Base", detail: "50% fruit content, clear or cloudy.", img: catNectars },
-      { name: "Mixed Berry Nectar Base", detail: "Blended berry nectar with natural colour.", img: catNectars },
     ],
   },
   {
