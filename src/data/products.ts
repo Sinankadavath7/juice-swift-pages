@@ -79,14 +79,11 @@ export const categories: ProductCategory[] = [
       "IQF and aseptic fruit dices in 5×5, 8×8 and 10×10 mm cuts, calibrated for yogurt, ice cream, bakery inclusions and fruit preparations.",
     img: catDices,
     items: [
-      { name: "Apple Dices", detail: "IQF 8×8 mm and 10×10 mm, natural or treated.", img: catDices },
+      { name: "Peach Dices", detail: "IQF 10×10 mm yellow peach.", img: catDices },
       { name: "Mango Dices", detail: "IQF 10×10 mm, sweet ripe cubes.", img: catDices },
       { name: "Pineapple Dices", detail: "IQF and aseptic, 8×8 mm and 10×10 mm.", img: catDices },
-      { name: "Peach Dices", detail: "IQF 10×10 mm yellow peach.", img: catDices },
-      { name: "Strawberry Dices", detail: "IQF 8×8 mm and whole calibrated fruit.", img: catDices },
-      { name: "Banana Dices", detail: "IQF slices and cubes.", img: catDices },
+      { name: "Tomato Dices", detail: "IQF 8×8 mm and 10×10 mm, hot break.", img: catDices },
       { name: "Papaya Dices", detail: "IQF 8×8 mm and 10×10 mm, natural or treated.", img: papayaDices },
-      { name: "Pomegranate Arils", detail: "IQF whole arils, hand selected.", img: catDices },
     ],
   },
 ];
