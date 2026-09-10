@@ -1,11 +1,9 @@
 import catConcentrate from "@/assets/cat/juice-concentrate.jpg";
-import catPulp from "@/assets/cat/fruit-pulp.jpg";
 import catPuree from "@/assets/cat/puree.jpg";
 import catNfc from "@/assets/cat/nfc-juices.jpg";
 import pineappleConcentrate from "@/assets/fruit/pineapple-juice-concentrate.jpg";
 import orangeConcentrate from "@/assets/fruit/orange-juice-concentrate.png";
 import appleConcentrate from "@/assets/fruit/apple-juice-concentrate.png";
-import mangoPulp from "@/assets/fruit/mango-pulp.jpg";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import papayaDices from "@/assets/fruit/papaya-dices.jpg";
 
@@ -38,24 +36,6 @@ export const categories: ProductCategory[] = [
       { name: "Pineapple Juice Concentrate", detail: "60 Brix, clarified, aseptic drums.", img: pineappleConcentrate },
       { name: "White Grape Juice Concentrate", detail: "68 Brix, clarified.", img: catConcentrate },
       { name: "Red Grape Juice Concentrate", detail: "68 Brix, clarified.", img: catConcentrate },
-    ],
-  },
-  {
-    slug: "fruit-pulp",
-    name: "Fruit Pulp",
-    detail: "Aseptic and frozen pulp with natural fruit character.",
-    intro:
-      "Aseptic and frozen fruit pulp processed close to harvest, preserving natural colour, aroma and Brix for beverage, dairy and bakery lines.",
-    img: catPulp,
-    items: [
-      { name: "Mango Pulp", detail: "Alphonso, Kesar, Totapuri — 16–18 Brix, aseptic.", img: mangoPulp },
-      { name: "Guava Pulp", detail: "White and pink guava, 9–11 Brix, aseptic.", img: catPulp },
-      { name: "Banana Pulp", detail: "22 Brix, aseptic, ideal for smoothies and dairy.", img: catPulp },
-      { name: "Papaya Pulp", detail: "9–11 Brix, aseptic tropical pulp.", img: catPulp },
-      { name: "Strawberry Pulp", detail: "7–9 Brix, frozen or aseptic.", img: catPulp },
-      { name: "Pineapple Pulp", detail: "12–14 Brix, aseptic, with natural fibre.", img: catPulp },
-      { name: "Peach Pulp", detail: "10–12 Brix, aseptic, yellow flesh.", img: catPulp },
-      { name: "Tomato Pulp", detail: "Hot break and cold break, 28–30 Brix paste available.", img: catPulp },
     ],
   },
   {
