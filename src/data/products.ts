@@ -50,6 +50,8 @@ export const categories: ProductCategory[] = [
       { name: "Apricot Purée", detail: "10–12 Brix, aseptic stone-fruit purée.", img: catPuree },
       { name: "Pineapple Purée", detail: "12–14 Brix, aseptic, natural fibre.", img: catPuree },
       { name: "Tomato Purée", detail: "28–30 Brix, hot break and cold break available.", img: catPuree },
+      { name: "Watermelon Purée", detail: "8–10 Brix, aseptic, natural sweetness.", img: catPuree },
+      { name: "Papaya Purée", detail: "9–11 Brix, aseptic tropical purée.", img: catPuree },
     ],
   },
   {
