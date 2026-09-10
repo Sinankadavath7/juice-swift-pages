@@ -46,14 +46,10 @@ export const categories: ProductCategory[] = [
       "Smooth single-strength and concentrated purées with fine particle size, engineered for yogurt, ice cream, bakery fillings and confectionery.",
     img: catPuree,
     items: [
-      { name: "Strawberry Purée", detail: "Single strength and 28 Brix concentrated.", img: catPuree },
-      { name: "Mango Purée", detail: "Single strength 16 Brix and 28 Brix concentrated.", img: catPuree },
-      { name: "Apple Purée", detail: "11 Brix, natural or acidified.", img: catPuree },
-      { name: "Peach & Apricot Purée", detail: "10–12 Brix, aseptic stone-fruit purées.", img: catPuree },
-      { name: "Banana Purée", detail: "22 Brix, aseptic, smooth texture.", img: catPuree },
-      { name: "Raspberry & Blackberry Purée", detail: "Seedless, single strength or concentrated.", img: catPuree },
-      { name: "Pomegranate Purée", detail: "15 Brix, deep natural colour.", img: catPuree },
-      { name: "Passion Fruit Purée", detail: "13–15 Brix, aromatic tropical purée.", img: catPuree },
+      { name: "Peach Purée", detail: "10–12 Brix, aseptic stone-fruit purée.", img: catPuree },
+      { name: "Apricot Purée", detail: "10–12 Brix, aseptic stone-fruit purée.", img: catPuree },
+      { name: "Pineapple Purée", detail: "12–14 Brix, aseptic, natural fibre.", img: catPuree },
+      { name: "Tomato Purée", detail: "28–30 Brix, hot break and cold break available.", img: catPuree },
     ],
   },
   {
