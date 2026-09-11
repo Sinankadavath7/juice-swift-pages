@@ -63,13 +63,8 @@ export const categories: ProductCategory[] = [
       "Not-from-concentrate juices pressed and preserved without dilution — full natural aroma profile, supplied chilled, frozen or aseptic.",
     img: catNfc,
     items: [
-      { name: "NFC Orange Juice", detail: "11–12 Brix, chilled or frozen, with or without pulp.", img: catNfc },
-      { name: "NFC Apple Juice", detail: "11 Brix, clear or cloudy, aseptic.", img: catNfc },
       { name: "NFC Pineapple Juice", detail: "12 Brix, aseptic, tropical aroma.", img: catNfc },
-      { name: "NFC Grape Juice", detail: "16 Brix, white and red varieties.", img: catNfc },
-      { name: "NFC Lemon Juice", detail: "Natural acidity, chilled or frozen.", img: catNfc },
-      { name: "NFC Pomegranate Juice", detail: "15 Brix, cold pressed, deep colour.", img: catNfc },
-      { name: "NFC Carrot & Beet Juice", detail: "Vegetable NFC juices, aseptic.", img: catNfc },
+      { name: "NFC Watermelon Juice", detail: "8 Brix, chilled or frozen, natural aroma.", img: catNfc },
     ],
   },
   {
