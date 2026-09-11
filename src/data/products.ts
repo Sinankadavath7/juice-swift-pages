@@ -1,5 +1,6 @@
 import catConcentrate from "@/assets/cat/juice-concentrate.jpg";
 import catPuree from "@/assets/cat/puree.jpg";
+import pineapplePuree from "@/assets/fruit/pineapple-puree.jpg";
 import catNfc from "@/assets/cat/nfc-juices.jpg";
 import nfcPineappleJuice from "@/assets/fruit/nfc-pineapple-juice.jpg";
 import nfcWatermelonJuice from "@/assets/fruit/nfc-watermelon-juice.jpg";
@@ -51,7 +52,7 @@ export const categories: ProductCategory[] = [
     items: [
       { name: "Peach Purée", detail: "10–12 Brix, aseptic stone-fruit purée.", img: catPuree },
       { name: "Apricot Purée", detail: "10–12 Brix, aseptic stone-fruit purée.", img: catPuree },
-      { name: "Pineapple Purée", detail: "12–14 Brix, aseptic, natural fibre.", img: catPuree },
+      { name: "Pineapple Purée", detail: "12–14 Brix, aseptic, natural fibre.", img: pineapplePuree },
       { name: "Tomato Purée", detail: "28–30 Brix, hot break and cold break available.", img: catPuree },
       { name: "Watermelon Purée", detail: "8–10 Brix, aseptic, natural sweetness.", img: catPuree },
       { name: "Papaya Purée", detail: "9–11 Brix, aseptic tropical purée.", img: catPuree },
