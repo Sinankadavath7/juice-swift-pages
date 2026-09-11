@@ -75,7 +75,7 @@ export const categories: ProductCategory[] = [
   {
     slug: "fruit-dices",
     name: "Fruit Dices",
-    detail: "IQF and aseptic fruit dices in a range of cut sizes.",
+    detail: "aseptic fruit dices in a range of cut sizes.",
     intro:
       "IQF and aseptic fruit dices in 5×5, 8×8 and 10×10 mm cuts, calibrated for yogurt, ice cream, bakery inclusions and fruit preparations.",
     img: catDices,
