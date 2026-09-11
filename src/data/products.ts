@@ -6,6 +6,7 @@ import orangeConcentrate from "@/assets/fruit/orange-juice-concentrate.png";
 import appleConcentrate from "@/assets/fruit/apple-juice-concentrate.png";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import papayaDices from "@/assets/fruit/papaya-dices.jpg";
+import pineappleDices from "@/assets/fruit/pineapple-dices.jpg";
 
 export type ProductItem = {
   name: string;
@@ -81,7 +82,7 @@ export const categories: ProductCategory[] = [
     items: [
       { name: "Peach Dices", detail: "IQF 10×10 mm yellow peach.", img: catDices },
       { name: "Mango Dices", detail: "IQF 10×10 mm, sweet ripe cubes.", img: catDices },
-      { name: "Pineapple Dices", detail: "IQF and aseptic, 8×8 mm and 10×10 mm.", img: catDices },
+      { name: "Pineapple Dices", detail: "IQF and aseptic, 8×8 mm and 10×10 mm.", img: pineappleDices },
       { name: "Tomato Dices", detail: "IQF 8×8 mm and 10×10 mm, hot break.", img: catDices },
       { name: "Papaya Dices", detail: "IQF 8×8 mm and 10×10 mm, natural or treated.", img: papayaDices },
     ],
