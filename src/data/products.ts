@@ -37,9 +37,9 @@ export const categories: ProductCategory[] = [
       "Single-strength juices evaporated to concentrate, available clarified or cloudy, organic or conventional, in drums, IBCs and frozen formats.",
     img: catConcentrateGrid,
     items: [
-      { name: "Orange Juice Concentrate", detail: "65 Brix, frozen (FCOJ) — clarified or with pulp.", img: orangeConcentrateDrums },
-      { name: "Apple Juice Concentrate", detail: "70 Brix, clarified or cloudy, aseptic or frozen.", img: appleConcentrate },
-      { name: "Pineapple Juice Concentrate", detail: "60 Brix, clarified, aseptic drums.", img: pineappleConcentrate2 },
+      { name: "Orange Juice Concentrate", detail: "65 Brix, Ratio : 18-25, frozen (FCOJ) — clarified or with pulp.", img: orangeConcentrateDrums },
+      { name: "Apple Juice Concentrate", detail: "70 Brix, Acidity: 1.0-2.5, clarified or cloudy, aseptic or frozen.", img: appleConcentrate },
+      { name: "Pineapple Juice Concentrate", detail: "60 Brix, B/A Ratio : 18-30 ,clarified, aseptic drums.", img: pineappleConcentrate2 },
       { name: "White Grape Juice Concentrate", detail: "68 Brix, clarified.", img: whiteGrapeConcentrate },
       { name: "Red Grape Juice Concentrate", detail: "68 Brix, clarified.", img: catConcentrate },
     ],
@@ -89,4 +89,4 @@ export const categories: ProductCategory[] = [
   },
 ];
 
-export const getCategory = (slug: string) => categories.find((c) => c.slug === slug);
+export const getCategory = (slug: string) => categories.find((c) => c.slug === slug);v
