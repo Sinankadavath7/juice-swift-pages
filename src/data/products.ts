@@ -4,8 +4,9 @@ import pineapplePuree from "@/assets/fruit/pineapple-puree.jpg";
 import catNfc from "@/assets/cat/nfc-juices.jpg";
 import nfcPineappleJuice from "@/assets/fruit/nfc-pineapple-juice.jpg";
 import nfcWatermelonJuice from "@/assets/fruit/nfc-watermelon-juice.jpg";
-import pineappleConcentrate from "@/assets/fruit/pineapple-juice-concentrate.jpg";
-import orangeConcentrate from "@/assets/fruit/orange-juice-concentrate.png";
+import whiteGrapeConcentrate from "@/assets/fruit/white-grape-juice-concentrate.png";
+import pineappleConcentrate2 from "@/assets/fruit/pineapple-juice-concentrate-2.jpg";
+import orangeConcentrateDrums from "@/assets/fruit/orange-juice-concentrate-drums.jpg";
 import appleConcentrate from "@/assets/fruit/apple-juice-concentrate-drums.jpg";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import papayaDices from "@/assets/fruit/papaya-dices.jpg";
@@ -35,10 +36,10 @@ export const categories: ProductCategory[] = [
       "Single-strength juices evaporated to concentrate, available clarified or cloudy, organic or conventional, in drums, IBCs and frozen formats.",
     img: catConcentrate,
     items: [
-      { name: "Orange Juice Concentrate", detail: "65 Brix, frozen (FCOJ) — clarified or with pulp.", img: orangeConcentrate },
+      { name: "Orange Juice Concentrate", detail: "65 Brix, frozen (FCOJ) — clarified or with pulp.", img: orangeConcentrateDrums },
       { name: "Apple Juice Concentrate", detail: "70 Brix, clarified or cloudy, aseptic or frozen.", img: appleConcentrate },
-      { name: "Pineapple Juice Concentrate", detail: "60 Brix, clarified, aseptic drums.", img: pineappleConcentrate },
-      { name: "White Grape Juice Concentrate", detail: "68 Brix, clarified.", img: catConcentrate },
+      { name: "Pineapple Juice Concentrate", detail: "60 Brix, clarified, aseptic drums.", img: pineappleConcentrate2 },
+      { name: "White Grape Juice Concentrate", detail: "68 Brix, clarified.", img: whiteGrapeConcentrate },
       { name: "Red Grape Juice Concentrate", detail: "68 Brix, clarified.", img: catConcentrate },
     ],
   },
