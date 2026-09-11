@@ -1,6 +1,8 @@
 import catConcentrate from "@/assets/cat/juice-concentrate.jpg";
 import catPuree from "@/assets/cat/puree.jpg";
 import catNfc from "@/assets/cat/nfc-juices.jpg";
+import nfcPineappleJuice from "@/assets/fruit/nfc-pineapple-juice.jpg";
+import nfcWatermelonJuice from "@/assets/fruit/nfc-watermelon-juice.jpg";
 import pineappleConcentrate from "@/assets/fruit/pineapple-juice-concentrate.jpg";
 import orangeConcentrate from "@/assets/fruit/orange-juice-concentrate.png";
 import appleConcentrate from "@/assets/fruit/apple-juice-concentrate-drums.jpg";
@@ -63,8 +65,8 @@ export const categories: ProductCategory[] = [
       "Not-from-concentrate juices pressed and preserved without dilution — full natural aroma profile, supplied chilled, frozen or aseptic.",
     img: catNfc,
     items: [
-      { name: "NFC Pineapple Juice", detail: "12 Brix, aseptic, tropical aroma.", img: catNfc },
-      { name: "NFC Watermelon Juice", detail: "8 Brix, chilled or frozen, natural aroma.", img: catNfc },
+      { name: "NFC Pineapple Juice", detail: "12 Brix, aseptic, tropical aroma.", img: nfcPineappleJuice },
+      { name: "NFC Watermelon Juice", detail: "8 Brix, chilled or frozen, natural aroma.", img: nfcWatermelonJuice },
     ],
   },
   {
