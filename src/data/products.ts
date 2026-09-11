@@ -6,7 +6,7 @@ import orangeConcentrate from "@/assets/fruit/orange-juice-concentrate.png";
 import appleConcentrate from "@/assets/fruit/apple-juice-concentrate.png";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import papayaDices from "@/assets/fruit/papaya-dices.jpg";
-import pineappleDices from "@/assets/fruit/pineapple-dices.jpg";
+import pineappleDices from "@/assets/fruit/pineapple-dices_1.jpg";
 
 export type ProductItem = {
   name: string;
