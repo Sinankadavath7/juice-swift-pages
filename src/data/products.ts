@@ -89,4 +89,4 @@ export const categories: ProductCategory[] = [
   },
 ];
 
-export const getCategory = (slug: string) => categories.find((c) => c.slug === slug);v
+export const getCategory = (slug: string) => categories.find((c) => c.slug === slug);
