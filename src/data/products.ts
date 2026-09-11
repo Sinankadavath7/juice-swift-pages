@@ -3,7 +3,7 @@ import catPuree from "@/assets/cat/puree.jpg";
 import catNfc from "@/assets/cat/nfc-juices.jpg";
 import pineappleConcentrate from "@/assets/fruit/pineapple-juice-concentrate.jpg";
 import orangeConcentrate from "@/assets/fruit/orange-juice-concentrate.png";
-import appleConcentrate from "@/assets/fruit/apple-juice-concentrate.png";
+import appleConcentrate from "@/assets/fruit/apple-juice-concentrate-drums.jpg";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import papayaDices from "@/assets/fruit/papaya-dices.jpg";
 import pineappleDices from "@/assets/fruit/pineapple-dices_1.jpg";
