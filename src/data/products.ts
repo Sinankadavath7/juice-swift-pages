@@ -99,7 +99,7 @@ export const categories: ProductCategory[] = [
     img: catHoreca,
     items: [
       { name: "Bottled Juice Crates", detail: "Ready-to-serve bottled juice, packed for foodservice distribution.", img: horecaBottledJuice },
-      { name: "Pineapple Bag-in-Box", detail: "Aseptic bag-in-box pineapple preparation for HORECA use.", img: horecaBagInBox },
+      { name: "Fruit Bag-in-Box", detail: "Aseptic bag-in-box fruit preparations across our range, packed for HORECA use.", img: horecaBagInBox },
     ],
   },
 ];
