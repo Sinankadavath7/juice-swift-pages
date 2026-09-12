@@ -13,6 +13,8 @@ import catDices from "@/assets/cat/fruit-dices.jpg";
 import papayaDices from "@/assets/fruit/papaya-dices.jpg";
 import pineappleDices from "@/assets/fruit/pineapple-dices_1.jpg";
 import catHoreca from "@/assets/cat/horeca.jpg";
+import horecaBottledJuice from "@/assets/bottled-juice-crates.jpg";
+import horecaBagInBox from "@/assets/bag-in-box-pineapple.jpg";
 
 export type ProductItem = {
   name: string;
@@ -95,7 +97,10 @@ export const categories: ProductCategory[] = [
     intro:
       "Ready-to-use juice and beverage solutions tailored for the hotel, restaurant and café (HORECA) sector — bottled, portioned and foodservice-ready.",
     img: catHoreca,
-    items: [],
+    items: [
+      { name: "Bottled Juice Crates", detail: "Ready-to-serve bottled juice, packed for foodservice distribution.", img: horecaBottledJuice },
+      { name: "Pineapple Bag-in-Box", detail: "Aseptic bag-in-box pineapple preparation for HORECA use.", img: horecaBagInBox },
+    ],
   },
 ];
 
