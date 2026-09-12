@@ -12,6 +12,7 @@ import appleConcentrate from "@/assets/fruit/apple-juice-concentrate-drums.jpg";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import papayaDices from "@/assets/fruit/papaya-dices.jpg";
 import pineappleDices from "@/assets/fruit/pineapple-dices_1.jpg";
+import catHoreca from "@/assets/cat/horeca.jpg";
 
 export type ProductItem = {
   name: string;
@@ -86,6 +87,15 @@ export const categories: ProductCategory[] = [
       { name: "Tomato Dices", detail: "IQF 8×8 mm and 10×10 mm, hot break.", img: catDices },
       { name: "Papaya Dices", detail: "IQF 8×8 mm and 10×10 mm, natural or treated.", img: papayaDices },
     ],
+  },
+  {
+    slug: "horeca",
+    name: "HORECA",
+    detail: "Beverage solutions for hotels, restaurants and cafés.",
+    intro:
+      "Ready-to-use juice and beverage solutions tailored for the hotel, restaurant and café (HORECA) sector — bottled, portioned and foodservice-ready.",
+    img: catHoreca,
+    items: [],
   },
 ];
 
