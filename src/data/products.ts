@@ -1,4 +1,3 @@
-import catConcentrate from "@/assets/cat/juice-concentrate.jpg";
 import catConcentrateGrid from "@/assets/fruit/apple-juice-concentrate-drums.jpg";
 import catPuree from "@/assets/cat/puree.jpg";
 import pineapplePuree from "@/assets/fruit/pineapple-puree.jpg";
@@ -6,6 +5,7 @@ import catNfc from "@/assets/cat/nfc-juices.jpg";
 import nfcPineappleJuice from "@/assets/fruit/nfc-pineapple-juice.jpg";
 import nfcWatermelonJuice from "@/assets/fruit/nfc-watermelon-juice.jpg";
 import whiteGrapeConcentrate from "@/assets/fruit/white-grape-juice-concentrate.png";
+import redGrapeConcentrate from "@/assets/fruit/red-grape-juice-concentrate.png";
 import pineappleConcentrate2 from "@/assets/fruit/pineapple-juice-concentrate-2.jpg";
 import orangeConcentrateDrums from "@/assets/fruit/orange-juice-concentrate-drums.jpg";
 import appleConcentrate from "@/assets/fruit/apple-juice-concentrate-drums.jpg";
@@ -41,7 +41,7 @@ export const categories: ProductCategory[] = [
       { name: "Apple Juice Concentrate", detail: "70 Brix, Acidity: 1.0-2.5, clarified or cloudy, aseptic or frozen.", img: appleConcentrate },
       { name: "Pineapple Juice Concentrate", detail: "60 Brix, B/A Ratio : 18-30 ,clarified, aseptic drums.", img: pineappleConcentrate2 },
       { name: "White Grape Juice Concentrate", detail: "68 Brix, clarified.", img: whiteGrapeConcentrate },
-      { name: "Red Grape Juice Concentrate", detail: "68 Brix, clarified.", img: catConcentrate },
+      { name: "Red Grape Juice Concentrate", detail: "68 Brix, clarified.", img: redGrapeConcentrate },
     ],
   },
   {
