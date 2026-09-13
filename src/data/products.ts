@@ -101,7 +101,7 @@ export const categories: ProductCategory[] = [
     items: [
       { name: "Bottled Juice Crates", detail: "Ready-to-serve bottled juice, packed for foodservice distribution.", img: horecaBottledJuice },
       { name: "Fruit Bag-in-Box", detail: "Aseptic bag-in-box fruit preparations across our range, packed for HORECA use.", img: horecaBagInBox },
-      { name: "Bottled Juice Concentrate", detail: "1L glass bottle, sugar-free juice concentrate with added vitamin C, available in a range of fruit flavours.", img: horecaOrangeBottle },
+      { name: "Bottled Juice Concentrate", detail: "Bottled juice concentrate in various quantity and available in a range of fruit flavours.", img: horecaOrangeBottle },
     ],
   },
 ];
