@@ -85,10 +85,10 @@ export const categories: ProductCategory[] = [
     img: catDices,
     items: [
       { name: "Peach Dices", detail: "3-12mm, brix 10-12, aseptic.", img: catDices },
-      { name: "Mango Dices", detail: "IQF 10×10 mm, sweet ripe cubes.", img: catDices },
+      { name: "Mango Dices", detail: "10×10 mm, sweet ripe cubes.", img: catDices },
       { name: "Pineapple Dices", detail: "3-12mm, brix 10-12, aseptic.", img: pineappleDices },
-      { name: "Tomato Dices", detail: "IQF 8×8 mm and 10×10 mm, hot break.", img: catDices },
-      { name: "Papaya Dices", detail: "IQF 8×8 mm and 10×10 mm, natural or treated.", img: papayaDices },
+      { name: "Tomato Dices", detail: "8×8 mm and 10×10 mm, hot break.", img: papayaDices },
+      { name: "Papaya Dices", detail: "8×8 mm and 10×10 mm, natural or treated.", img: catDices },
     ],
   },
   {
