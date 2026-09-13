@@ -15,6 +15,7 @@ import pineappleDices from "@/assets/fruit/pineapple-dices_1.jpg";
 import catHoreca from "@/assets/cat/horeca.jpg";
 import horecaBottledJuice from "@/assets/bottled-juice-crates.jpg";
 import horecaBagInBox from "@/assets/bag-in-box-pineapple.jpg";
+import horecaOrangeBottle from "@/assets/horeca-orange-bottle.jpg";
 
 export type ProductItem = {
   name: string;
@@ -100,6 +101,7 @@ export const categories: ProductCategory[] = [
     items: [
       { name: "Bottled Juice Crates", detail: "Ready-to-serve bottled juice, packed for foodservice distribution.", img: horecaBottledJuice },
       { name: "Fruit Bag-in-Box", detail: "Aseptic bag-in-box fruit preparations across our range, packed for HORECA use.", img: horecaBagInBox },
+      { name: "Bottled Orange Juice (Sugar Free)", detail: "1L glass bottle, sugar-free orange concentrate with added vitamin C.", img: horecaOrangeBottle },
     ],
   },
 ];
