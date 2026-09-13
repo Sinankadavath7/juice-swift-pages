@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { categories } from "@/data/products";
 import indBeverage from "@/assets/ind/ind-beverage.jpg";
@@ -83,6 +84,31 @@ const products = categories;
 const formats = ["200 L Drums", "1,000 L IBC", "Bag-in-Box", "Aseptic Totes", "Frozen Blocks"];
 
 function Index() {
+  const [formStatus, setFormStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+
+  const handleEnquirySubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setFormStatus("submitting");
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: formData,
+      });
+      const result = await response.json();
+      if (result.success) {
+        setFormStatus("success");
+        form.reset();
+      } else {
+        setFormStatus("error");
+      }
+    } catch {
+      setFormStatus("error");
+    }
+  };
+
   return (
     <div className="min-h-screen bg-background font-sans text-foreground">
       {/* Nav */}
@@ -284,18 +310,21 @@ function Index() {
           </div>
           <form
             className="space-y-4"
-            onSubmit={(e) => {
-              e.preventDefault();
-            }}
+            onSubmit={handleEnquirySubmit}
           >
+            <input type="hidden" name="access_key" value="61ba9413-8f20-4c36-9727-29f738c67c4d" />
+            <input type="hidden" name="subject" value="New enquiry from fruitcapfze.com" />
+            <input type="hidden" name="from_name" value="FRUITCAP website" />
             <div className="grid gap-4 sm:grid-cols-2">
               <input
                 required
+                name="company"
                 placeholder="Company"
                 className="w-full rounded-xl border border-border bg-card px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring"
               />
               <input
                 required
+                name="name"
                 placeholder="Contact name"
                 className="w-full rounded-xl border border-border bg-card px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring"
               />
@@ -303,20 +332,33 @@ function Index() {
             <input
               required
               type="email"
+              name="email"
               placeholder="Work email"
               className="w-full rounded-xl border border-border bg-card px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring"
             />
             <textarea
               rows={4}
+              name="message"
               placeholder="Product, volume, Brix and destination market"
               className="w-full rounded-xl border border-border bg-card px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring"
             />
             <button
               type="submit"
-              className="w-full rounded-full bg-primary px-6 py-3.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+              disabled={formStatus === "submitting"}
+              className="w-full rounded-full bg-primary px-6 py-3.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 disabled:opacity-60"
             >
-              Send enquiry
+              {formStatus === "submitting" ? "Sending..." : "Send enquiry"}
             </button>
+            {formStatus === "success" && (
+              <p className="text-sm text-green-600">
+                Thank you — your enquiry has been sent. We'll be in touch shortly.
+              </p>
+            )}
+            {formStatus === "error" && (
+              <p className="text-sm text-red-600">
+                Something went wrong sending your enquiry. Please try again or email us directly.
+              </p>
+            )}
           </form>
         </div>
       </section>
