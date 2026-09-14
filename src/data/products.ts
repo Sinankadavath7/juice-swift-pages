@@ -16,6 +16,8 @@ import appleConcentrate from "@/assets/fruit/apple-juice-concentrate-drums.jpg";
 import catDices from "@/assets/cat/fruit-dices.jpg";
 import papayaDices from "@/assets/fruit/papaya-dices.jpg";
 import pineappleDices from "@/assets/fruit/pineapple-dices_1.jpg";
+import mangoDices from "@/assets/mango-dices.png";
+import peachDices from "@/assets/peach-dices.jpg";
 import catHoreca from "@/assets/cat/horeca.jpg";
 import horecaBottledJuice from "@/assets/bottled-juice-crates.jpg";
 import horecaBagInBox from "@/assets/bag-in-box-pineapple.jpg";
@@ -88,8 +90,8 @@ export const categories: ProductCategory[] = [
       "IQF and aseptic fruit dices in 5×5, 8×8 and 10×10 mm cuts, calibrated for yogurt, ice cream, bakery inclusions and fruit preparations.",
     img: catDices,
     items: [
-      { name: "Peach Dices", detail: "3-12mm, brix 10-12, aseptic.", img: catDices },
-      { name: "Mango Dices", detail: "10×10 mm, sweet ripe cubes.", img: catDices },
+      { name: "Peach Dices", detail: "3-12mm, brix 10-12, aseptic.", img: peachDices },
+      { name: "Mango Dices", detail: "10×10 mm, sweet ripe cubes.", img: mangoDices },
       { name: "Pineapple Dices", detail: "3-12mm, brix 10-12, aseptic.", img: pineappleDices },
       { name: "Tomato Dices", detail: "8×8 mm and 10×10 mm, hot break.", img: papayaDices },
       { name: "Papaya Dices", detail: "8×8 mm and 10×10 mm, natural or treated.", img: catDices },
