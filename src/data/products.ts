@@ -1,6 +1,11 @@
 import catConcentrateGrid from "@/assets/fruit/apple-juice-concentrate-drums.jpg";
 import catPuree from "@/assets/cat/puree.jpg";
 import pineapplePuree from "@/assets/fruit/pineapple-puree.jpg";
+import tomatoPuree from "@/assets/tomato-puree.png";
+import papayaPuree from "@/assets/papaya-puree.png";
+import peachPuree from "@/assets/peach-puree.png";
+import apricotPuree from "@/assets/apricot-puree.png";
+import watermelonPuree from "@/assets/watermelon-puree.jpg";
 import catNfc from "@/assets/cat/nfc-juices.jpg";
 import nfcPineappleJuice from "@/assets/fruit/nfc-pineapple-juice.jpg";
 import nfcWatermelonJuice from "@/assets/fruit/nfc-watermelon-juice.jpg";
@@ -56,12 +61,12 @@ export const categories: ProductCategory[] = [
       "Smooth single-strength and concentrated purées with fine particle size, engineered for yogurt, ice cream, bakery fillings and confectionery.",
     img: catPuree,
     items: [
-      { name: "Peach Purée", detail: "10–12 Brix, aseptic stone-fruit purée.", img: catPuree },
-      { name: "Apricot Purée", detail: "10–12 Brix, aseptic stone-fruit purée.", img: catPuree },
+      { name: "Peach Purée", detail: "10–12 Brix, aseptic stone-fruit purée.", img: peachPuree },
+      { name: "Apricot Purée", detail: "10–12 Brix, aseptic stone-fruit purée.", img: apricotPuree },
       { name: "Pineapple Purée", detail: "12–18 Brix, aseptic, natural fibre.", img: pineapplePuree },
-      { name: "Tomato Purée", detail: "28–30 Brix, hot break and cold break available.", img: catPuree },
-      { name: "Watermelon Purée", detail: "8–10 Brix, aseptic, natural sweetness.", img: catPuree },
-      { name: "Papaya Purée", detail: "9–11 Brix, aseptic tropical purée.", img: catPuree },
+      { name: "Tomato Purée", detail: "28–30 Brix, hot break and cold break available.", img: tomatoPuree },
+      { name: "Watermelon Purée", detail: "8–10 Brix, aseptic, natural sweetness.", img: watermelonPuree },
+      { name: "Papaya Purée", detail: "9–11 Brix, aseptic tropical purée.", img: papayaPuree },
     ],
   },
   {
