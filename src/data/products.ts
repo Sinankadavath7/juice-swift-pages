@@ -1,5 +1,4 @@
 import catConcentrateGrid from "@/assets/fruit/apple-juice-concentrate-drums.jpg";
-import catPuree from "@/assets/cat/puree.jpg";
 import pineapplePuree from "@/assets/fruit/pineapple-puree.jpg";
 import tomatoPuree from "@/assets/tomato-puree.png";
 import papayaPuree from "@/assets/papaya-puree.png";
@@ -59,7 +58,7 @@ export const categories: ProductCategory[] = [
     detail: "Single-strength and concentrated purées for every application.",
     intro:
       "Smooth single-strength and concentrated purées with fine particle size, engineered for yogurt, ice cream, bakery fillings and confectionery.",
-    img: catPuree,
+    img: peachPuree,
     items: [
       { name: "Peach Purée", detail: "10–12 Brix, aseptic stone-fruit purée.", img: peachPuree },
       { name: "Apricot Purée", detail: "10–12 Brix, aseptic stone-fruit purée.", img: apricotPuree },
