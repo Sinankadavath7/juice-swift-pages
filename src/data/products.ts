@@ -22,6 +22,7 @@ import catHoreca from "@/assets/cat/horeca.jpg";
 import horecaBottledJuice from "@/assets/bottled-juice-crates.jpg";
 import horecaBagInBox from "@/assets/bag-in-box-pineapple.jpg";
 import horecaOrangeBottle from "@/assets/horeca-orange-bottle.jpg";
+import horecaCannedFruitsVegetables from "@/assets/horeca-canned-fruits-vegetables.jpg";
 
 export type ProductItem = {
   name: string;
@@ -108,6 +109,7 @@ export const categories: ProductCategory[] = [
       { name: "Bottled Juice Crates", detail: "Ready-to-serve bottled juice, packed for foodservice distribution.", img: horecaBottledJuice },
       { name: "Fruit Bag-in-Box", detail: "Aseptic bag-in-box fruit preparations across our range, packed for HORECA use.", img: horecaBagInBox },
       { name: "Bottled Juice Concentrate", detail: "Bottled juice concentrate in various quantity and available in a range of fruit flavours.", img: horecaOrangeBottle },
+      { name: "Canned Fruits & Vegetables", detail: "Canned fruits, vegetables and pulses in a range of pack sizes for foodservice.", img: horecaCannedFruitsVegetables },
     ],
   },
 ];
