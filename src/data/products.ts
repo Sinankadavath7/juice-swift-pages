@@ -23,6 +23,7 @@ import horecaBottledJuice from "@/assets/bottled-juice-crates.jpg";
 import horecaBagInBox from "@/assets/bag-in-box-pineapple.jpg";
 import horecaOrangeBottle from "@/assets/horeca-orange-bottle.jpg";
 import horecaCannedFruitsVegetables from "@/assets/horeca-canned-fruits-vegetables.jpg";
+import horecaCannedPreservedFoods from "@/assets/horeca-canned-preserved-foods.jpg";
 
 export type ProductItem = {
   name: string;
@@ -120,7 +121,7 @@ export const categories: ProductCategory[] = [
       { name: "Ready-to-use Sauces", detail: "Ready-to-use sauces for HORECA kitchens, no prep required.", img: catHoreca },
       { name: "Condiments & Spices", detail: "A range of condiments and spices for foodservice kitchens.", img: catHoreca },
       { name: "Vinegars", detail: "Table and cooking vinegars in foodservice pack sizes.", img: catHoreca },
-      { name: "Canned / Preserved Foods", detail: "Canned and preserved foods in a range of pack sizes.", img: catHoreca },
+      { name: "Canned / Preserved Foods", detail: "Canned and preserved foods in a range of pack sizes.", img: horecaCannedPreservedFoods },
     ],
   },
 ];
