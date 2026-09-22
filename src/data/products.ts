@@ -24,6 +24,10 @@ import horecaBagInBox from "@/assets/bag-in-box-pineapple.jpg";
 import horecaOrangeBottle from "@/assets/horeca-orange-bottle.jpg";
 import horecaCannedFruitsVegetables from "@/assets/horeca-canned-fruits-vegetables.jpg";
 import horecaCannedPreservedFoods from "@/assets/horeca-canned-preserved-foods.jpg";
+import horecaFruitPureesPulps from "@/assets/horeca-fruit-purees-pulps.jpg";
+import horecaFruitBasesBeverages from "@/assets/horeca-fruit-bases-beverages.jpg";
+import horecaFrozenFruitProducts from "@/assets/horeca-frozen-fruit-products.jpg";
+import horecaFruitIngredientsShakes from "@/assets/horeca-fruit-ingredients-shakes.jpg";
 
 export type ProductItem = {
   name: string;
@@ -111,10 +115,10 @@ export const categories: ProductCategory[] = [
       { name: "Fruit Bag-in-Box", detail: "Aseptic bag-in-box fruit preparations across our range, packed for HORECA use.", img: horecaBagInBox },
       { name: "Bottled Juice Concentrate", detail: "Bottled juice concentrate in various quantity and available in a range of fruit flavours.", img: horecaOrangeBottle },
       { name: "Canned Fruits & Vegetables", detail: "Canned fruits, vegetables and pulses in a range of pack sizes for foodservice.", img: horecaCannedFruitsVegetables },
-      { name: "Fruit Purées & Pulps", detail: "Smooth fruit purées and pulps for foodservice preparation.", img: catHoreca },
-      { name: "Fruit Bases for Beverages, Smoothies & Desserts", detail: "Ready-to-use fruit bases for beverages, smoothies and desserts.", img: catHoreca },
-      { name: "Frozen Fruit Products", detail: "Frozen fruit products for foodservice kitchens.", img: catHoreca },
-      { name: "Fruit Ingredients for Shakes, Mocktails, Desserts & Bakery", detail: "Fruit ingredients for shakes, mocktails, desserts and bakery applications.", img: catHoreca },
+      { name: "Fruit Purées & Pulps", detail: "Smooth fruit purées and pulps for foodservice preparation.", img: horecaFruitPureesPulps },
+      { name: "Fruit Bases for Beverages, Smoothies & Desserts", detail: "Ready-to-use fruit bases for beverages, smoothies and desserts.", img: horecaFruitBasesBeverages },
+      { name: "Frozen Fruit Products", detail: "Frozen fruit products for foodservice kitchens.", img: horecaFrozenFruitProducts },
+      { name: "Fruit Ingredients for Shakes, Mocktails, Desserts & Bakery", detail: "Fruit ingredients for shakes, mocktails, desserts and bakery applications.", img: horecaFruitIngredientsShakes },
       { name: "Wheat Flour", detail: "Bulk wheat flour for bakery and foodservice kitchens.", img: catHoreca },
       { name: "Sugar & Sweeteners", detail: "Granulated sugar and sweeteners in foodservice pack sizes.", img: catHoreca },
       { name: "Tomato Ketchup", detail: "Classic tomato ketchup, packed for foodservice use.", img: catHoreca },
