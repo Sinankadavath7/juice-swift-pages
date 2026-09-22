@@ -28,6 +28,8 @@ import horecaFruitPureesPulps from "@/assets/horeca-fruit-purees-pulps.jpg";
 import horecaFruitBasesBeverages from "@/assets/horeca-fruit-bases-beverages.jpg";
 import horecaFrozenFruitProducts from "@/assets/horeca-frozen-fruit-products.jpg";
 import horecaFruitIngredientsShakes from "@/assets/horeca-fruit-ingredients-shakes.jpg";
+import horecaWheatFlour from "@/assets/horeca-wheat-flour.jpg";
+import horecaSugarSweeteners from "@/assets/horeca-sugar-sweeteners.jpg";
 
 export type ProductItem = {
   name: string;
@@ -119,8 +121,8 @@ export const categories: ProductCategory[] = [
       { name: "Fruit Bases for Beverages, Smoothies & Desserts", detail: "Ready-to-use fruit bases for beverages, smoothies and desserts.", img: horecaFruitBasesBeverages },
       { name: "Frozen Fruit Products", detail: "Frozen fruit products for foodservice kitchens.", img: horecaFrozenFruitProducts },
       { name: "Fruit Ingredients for Shakes, Mocktails, Desserts & Bakery", detail: "Fruit ingredients for shakes, mocktails, desserts and bakery applications.", img: horecaFruitIngredientsShakes },
-      { name: "Wheat Flour", detail: "Bulk wheat flour for bakery and foodservice kitchens.", img: catHoreca },
-      { name: "Sugar & Sweeteners", detail: "Granulated sugar and sweeteners in foodservice pack sizes.", img: catHoreca },
+      { name: "Wheat Flour", detail: "Bulk wheat flour for bakery and foodservice kitchens.", img: horecaWheatFlour },
+      { name: "Sugar & Sweeteners", detail: "Granulated sugar and sweeteners in foodservice pack sizes.", img: horecaSugarSweeteners },
       { name: "Tomato Ketchup", detail: "Classic tomato ketchup, packed for foodservice use.", img: catHoreca },
       { name: "Ready-to-use Sauces", detail: "Ready-to-use sauces for HORECA kitchens, no prep required.", img: catHoreca },
       { name: "Condiments & Spices", detail: "A range of condiments and spices for foodservice kitchens.", img: catHoreca },
