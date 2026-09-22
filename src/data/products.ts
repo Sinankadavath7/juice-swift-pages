@@ -30,6 +30,10 @@ import horecaFrozenFruitProducts from "@/assets/horeca-frozen-fruit-products.jpg
 import horecaFruitIngredientsShakes from "@/assets/horeca-fruit-ingredients-shakes.jpg";
 import horecaWheatFlour from "@/assets/horeca-wheat-flour.jpg";
 import horecaSugarSweeteners from "@/assets/horeca-sugar-sweeteners.jpg";
+import horecaTomatoKetchup from "@/assets/horeca-tomato-ketchup.jpg";
+import horecaReadyToUseSauces from "@/assets/horeca-ready-to-use-sauces.jpg";
+import horecaCondimentsSpices from "@/assets/horeca-condiments-spices.jpg";
+import horecaVinegars from "@/assets/horeca-vinegars.jpg";
 
 export type ProductItem = {
   name: string;
@@ -123,10 +127,10 @@ export const categories: ProductCategory[] = [
       { name: "Fruit Ingredients for Shakes, Mocktails, Desserts & Bakery", detail: "Fruit ingredients for shakes, mocktails, desserts and bakery applications.", img: horecaFruitIngredientsShakes },
       { name: "Wheat Flour", detail: "Bulk wheat flour for bakery and foodservice kitchens.", img: horecaWheatFlour },
       { name: "Sugar & Sweeteners", detail: "Granulated sugar and sweeteners in foodservice pack sizes.", img: horecaSugarSweeteners },
-      { name: "Tomato Ketchup", detail: "Classic tomato ketchup, packed for foodservice use.", img: catHoreca },
-      { name: "Ready-to-use Sauces", detail: "Ready-to-use sauces for HORECA kitchens, no prep required.", img: catHoreca },
-      { name: "Condiments & Spices", detail: "A range of condiments and spices for foodservice kitchens.", img: catHoreca },
-      { name: "Vinegars", detail: "Table and cooking vinegars in foodservice pack sizes.", img: catHoreca },
+      { name: "Tomato Ketchup", detail: "Classic tomato ketchup, packed for foodservice use.", img: horecaTomatoKetchup },
+      { name: "Ready-to-use Sauces", detail: "Ready-to-use sauces for HORECA kitchens, no prep required.", img: horecaReadyToUseSauces },
+      { name: "Condiments & Spices", detail: "A range of condiments and spices for foodservice kitchens.", img: horecaCondimentsSpices },
+      { name: "Vinegars", detail: "Table and cooking vinegars in foodservice pack sizes.", img: horecaVinegars },
       { name: "Canned / Preserved Foods", detail: "Canned and preserved foods in a range of pack sizes.", img: horecaCannedPreservedFoods },
     ],
   },
